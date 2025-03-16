@@ -314,5 +314,33 @@ h2{
 
 }
 .pc input ::placeholder{
-    
+ color: white;   
+}
+
+.footer{
+    color:  white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+}
+footer .footer-item{
+    font-family: "Martel Sans", sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    margin: 50px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-item a{
+    font-family: "Martel Sans", sans-serif;
+    /* color: white; */
+    color: rgba(128, 128, 128, 0.863);
+}
+footer{
+    font-family: "Martel Sans", sans-serif;
+
+    color: rgba(128, 128, 128, 0.825);
+    margin: 20px ;
 }
