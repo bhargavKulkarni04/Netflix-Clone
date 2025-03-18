@@ -344,3 +344,140 @@ footer{
     color: rgba(128, 128, 128, 0.825);
     margin: 20px ;
 }
+@media screen and (max-width: 480px) {
+    .main {
+        height: 50vh;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .container input {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    #first, #second {
+        font-size: 30px;
+    }
+
+    #third, #fourth {
+        font-size: 16px;
+    }
+
+    .containerbutton {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .SecOneImg img {
+        width: 100%;
+    }
+
+    .grid ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .footer-item {
+        margin: 10px;
+    }
+
+    .pc input {
+        width: 80%;
+    }
+
+    .pc button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .bton {
+        padding: 8px 15px;
+    }
+
+    .englishbton {
+        padding: 8px 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablet Devices (up to 768px) */
+@media screen and (max-width: 768px) {
+    .main {
+        height: 60vh;
+    }
+
+    .container input {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .SecOneImg img {
+        width: 50%;
+    }
+
+    .grid ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-item {
+        margin: 10px;
+    }
+
+    .pc input {
+        width: 70%;
+    }
+
+    .pc button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
+
+/* Desktop Devices (above 768px) */
+@media screen and (min-width: 769px) {
+    .container {
+        padding: 48px;
+    }
+
+    section {
+        height: 70vh;
+    }
+
+    .SecOneImg img {
+        width: 40vw;
+    }
+
+    .grid ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
